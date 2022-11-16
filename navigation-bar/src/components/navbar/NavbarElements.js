@@ -1,4 +1,4 @@
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaBluetooth } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -8,8 +8,8 @@ position:fixed;
 width:100%;
 height: 85px;
 display: flex;
-justify-content: space-between;
-padding: 0.2rem calc((100vw - 1000px) / 2);
+justify-content: center;
+// padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
 /* Third Nav */
 /* justify-content: flex-start; */
@@ -30,7 +30,7 @@ cursor: pointer;
 
 export const Bars = styled(FaBars)`
 display: none;
-color: #808080;
+color: blue;
 @media screen and (max-width: 768px) {
 	display: block;
 	position: absolute;
@@ -45,16 +45,15 @@ color: #808080;
 export const NavMenu = styled.div`
 display: flex;
 align-items: center;
-margin-right: -24px;
 /* Second Nav */
 /* margin-right: 24px; */
 /* Third Nav */
 /* width: 100vw;
 white-space: nowrap; */
-@media screen and (max-width: 768px) {
-	display: none;
-}
-`;
+// @media screen and (max-width: 768px) {
+// 	display: none;
+// }
+// `;
 
 export const NavBtn = styled.nav`
 display: flex;
@@ -86,3 +85,4 @@ margin-left: 24px;
 	color: #808080;
 }
 `;
+
