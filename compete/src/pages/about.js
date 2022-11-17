@@ -15,25 +15,19 @@ const About = () => {
 
     // </div>
     <div class="cont">
-		<div class="entry">
-             
-		</div>
-		<div class="entry">
-             
-		</div>
-		<div class="entry">
-             
-		</div>
-		<div class="entry">
-             
-		</div>
-		<div class="entry">
-             
-		</div>
-		<div class="entry">
-             
-		</div>
-	</div>
+      <div class="entry">link1</div>
+      <div class="entry"></div>
+      <div class="entry"></div>
+      <div class="entry"></div>
+      <div class="entry"></div>
+      <div class="entry"></div>
+      <div class="entry"></div>
+      <div class="entry"></div>
+      <div class="entry"></div>
+      <div class="entry"></div>
+      <div class="entry"></div>
+      <div class="entry"></div>      
+    </div>
   );
 };
 

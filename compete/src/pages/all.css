@@ -25,20 +25,32 @@ code {
   margin-bottom: 20px;
   border-radius: 20px;
   overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .entry{
   position: inherit;
   width: 45%;
   height: 20%;
   background-color: black;
+  color: #fff;
   border-radius: 20px;
   margin-right: 15px;
   margin-left:15px ;
-  margin-bottom: 15px;
-  top:10px;
+  margin-bottom: 10px;
+  top:5px;
   display: flex;
-  justify-content: space-between;
+  overflow: auto;
+  justify-content: center;
   flex-direction: column;
   align-content: flex-start;
   flex-wrap: wrap;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.entry:hover{
+  padding: 4px;
+  transition: 0.5s;
 }
