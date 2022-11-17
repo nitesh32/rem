@@ -15,7 +15,7 @@ return (
 
 	// </div>
 <div class="cont">
-	
+
 </div>
 );
 };

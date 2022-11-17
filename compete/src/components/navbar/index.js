@@ -7,14 +7,16 @@ import {
   // NavBtn,
   // NavBtnLink,
 } from "./NavbarElements";
+import "./nav.css"
+
 const Navbar = () => {
   return (
     <>
       <Nav >
-        <Bars />
+        <Bars class="hov"/>
 
-        <NavMenu class="hov">
-          <NavLink to="/about" activeStyle>
+        <NavMenu >
+          <NavLink to="/" activeStyle>
             Govt. Jobs
           </NavLink>
           <NavLink to="/events" activeStyle>
