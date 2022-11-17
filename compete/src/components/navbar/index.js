@@ -7,15 +7,15 @@ import {
   // NavBtn,
   // NavBtnLink,
 } from "./NavbarElements";
-import "./nav.css"
+import "./nav.css";
 
 const Navbar = () => {
   return (
     <>
-      <Nav >
-        <Bars class="hov"/>
+      <Nav>
+        <Bars />
 
-        <NavMenu >
+        <NavMenu>
           <NavLink to="/" activeStyle>
             Govt. Jobs
           </NavLink>
@@ -23,8 +23,11 @@ const Navbar = () => {
             Competitions
           </NavLink>
           <NavLink to="/annual" activeStyle>
-			  Adminstration forms
-		  </NavLink>
+            Adminstration forms
+          </NavLink>
+          <NavLink to="/blogs" activeStyle>
+            Contact us
+          </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
