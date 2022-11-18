@@ -20,14 +20,14 @@ const Navbar = () => {
             Govt. Jobs
           </NavLink>
           <NavLink to="/events" activeStyle>
-            Competitions
+            Competative coding contests
           </NavLink>
           <NavLink to="/annual" activeStyle>
-            Adminstration forms
+            Admission forms
           </NavLink>
-          <NavLink to="/blogs" activeStyle>
+          {/* <NavLink to="/blogs" activeStyle>
             Contact us
-          </NavLink>
+          </NavLink> */}
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
