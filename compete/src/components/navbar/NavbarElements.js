@@ -33,7 +33,7 @@ cursor: pointer;
 }
 &:hover {
 	color: black;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.2s ease-in-out;
 	padding:0 1.5rem;
 	background-color:white;
 

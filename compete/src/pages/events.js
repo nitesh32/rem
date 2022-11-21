@@ -3,90 +3,249 @@ import "./all.css";
 const Events = () => {
   return (
     <div class="cont">
-      <div class="entry">
-        <div class="dis">
-          <h3>45th ICPC World Finals Challenge powered by Huawei - Problem 2</h3>
-        </div>
-        <a href="https://codeforces.com/contestRegistration/1751" target={"_blank"}>
-          <button
-            class="butt"
-            value="opening your link in new tab"
-            onClick={(e) => alert(e.target.value)}
-          >
-            <h1>click me</h1>
-          </button>
-        </a>
-      </div>
-      <div class="entry">
-        <div class="dis">
-          <h3>CODECHEF START 66</h3>
-        </div>
-        <a href="https://www.codechef.com/START66?itm_campaign=contest_listing" target={"_blank"}>
-          <button
-            class="butt"
-            value="opening your link in new tab"
-            onClick={(e) => alert(e.target.value)}
-          >
-            <h1>click me</h1>
-          </button>
-        </a>
-      </div>
-      <div class="entry">
-        <div class="dis">
-          <h3>Codeforces Round #834 (Div. 3)</h3>
-        </div>
-        <a href="https://codeforces.com/contestRegistration/1759" target={"_blank"}>
-          <button
-            class="butt"
-            value="opening your link in new tab"
-            onClick={(e) => alert(e.target.value)}
-          >
-            <h1>click me</h1>
-          </button>
-        </a>
-      </div>
-      <div class="entry">
-        <div class="dis">
-          <h3>Codeforces Round (Div. 1 + Div. 2)</h3>
-        </div>
-        <a href="https://codeforces.com/contestRegistration/1759" target={"_blank"}>
-          <button
-            class="butt"
-            value="opening your link in new tab"
-            onClick={(e) => alert(e.target.value)}
-          >
-            <h1>click me</h1>
-          </button>
-        </a>
-      </div>
-      <div class="entry">
-        <div class="dis">
-          <h3>CODEFCHEF START 67</h3>
-        </div>
-        <a href="https://www.codechef.com/START67?itm_campaign=contest_listing" target={"_blank"}>
-          <button
-            class="butt"
-            value="opening your link in new tab"
-            onClick={(e) => alert(e.target.value)}
-          >
-            <h1>click me</h1>
-          </button>
-        </a>
-      </div>
-      <div class="entry">
-        <div class="dis">
-          <h3>Weekly Interview Series - 77</h3>
-        </div>
-        <a href="https://practice.geeksforgeeks.org/contest/weekly-interview-series-77" target={"_blank"}>
-          <button
-            class="butt"
-            value="opening your link in new tab"
-            onClick={(e) => alert(e.target.value)}
-          >
-            <h1>click me</h1>
-          </button>
-        </a>
-      </div>
+      <a href="https://codeforces.com/contestRegistration/1751" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>45th ICPC World Finals Challenge powered by Huawei - Problem 2</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://codeforces.com/contestRegistration/1751" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>45th ICPC World Finals Challenge powered by Huawei - Problem 1</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://codeforces.com/contestRegistration/1760" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Codeforces Round #835 (Div. 4)</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://www.codechef.com/START66?itm_campaign=contest_listing" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>codechef Starters 66</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://www.codechef.com/START67?itm_campaign=contest_listing" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>codechef Starters 67</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/job-a-thon-15-hiring-challenge" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Job-A-Thon 15 - Hiring Challenge</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/bi-wizard-school-coding-tournament-90" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Bi-Wizard School Coding Tournament 9.0</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/weekly-interview-series-78" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Weekly Interview Series - 78</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/gate-cs-all-india-mock-3-2023" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>GATE CS All India Mock 3 (2023)</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/mega-job-a-thon-hiring-challenge-for-freshers" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Mega Job-A-Thon - Hiring Challenge for Freshers</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/bi-wizard-school-coding-tournament-90" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Bi-Wizard School Coding Tournament 9.0</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://codeforces.com/contestRegistration/1751" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>45th ICPC World Finals Challenge powered by Huawei - Problem 2</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://codeforces.com/contestRegistration/1751" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>45th ICPC World Finals Challenge powered by Huawei - Problem 1</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://codeforces.com/contestRegistration/1760" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Codeforces Round #835 (Div. 4)</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://www.codechef.com/START66?itm_campaign=contest_listing" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>codechef Starters 66</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://www.codechef.com/START67?itm_campaign=contest_listing" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>codechef Starters 67</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/job-a-thon-15-hiring-challenge" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Job-A-Thon 15 - Hiring Challenge</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/bi-wizard-school-coding-tournament-90" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Bi-Wizard School Coding Tournament 9.0</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/weekly-interview-series-78" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Weekly Interview Series - 78</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/gate-cs-all-india-mock-3-2023" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>GATE CS All India Mock 3 (2023)</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/mega-job-a-thon-hiring-challenge-for-freshers" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Mega Job-A-Thon - Hiring Challenge for Freshers</p>
+          {/* </div> */}
+        </button>
+      </a>
+      <a href="https://practice.geeksforgeeks.org/contest/bi-wizard-school-coding-tournament-90" target={"_blank"}>
+        <button
+          class="butt"
+          value="opening your link in new tab"
+          onClick={(e) => alert(e.target.value)}
+        >
+          {/* <div class="entry"> */}
+          <p>Bi-Wizard School Coding Tournament 9.0</p>
+          {/* </div> */}
+        </button>
+      </a>
+
     </div>
   );
 };
